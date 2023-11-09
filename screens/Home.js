@@ -135,7 +135,7 @@ function Home({ navigation }) {
                   >
                     <Text>{item.name}</Text>
                     <Text>{item.description}</Text>
-                    <Text>{item.price}</Text>
+                    <Text>${item.price}</Text>
                   </View>
 
                   <TouchableOpacity

@@ -29,7 +29,7 @@ const Stack = createNativeStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='man1' screenOptions={{headerShown:false}}>
+      <Stack.Navigator initialRouteName='man3' screenOptions={{headerShown:false}}>
         <Stack.Screen name='man1' component={man1}/>
         <Stack.Screen name='man2' component={man2}/>
         <Stack.Screen name='man3' component={man3}/>

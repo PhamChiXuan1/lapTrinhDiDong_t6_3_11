@@ -34,12 +34,13 @@ function man1({ navigation }) {
             style={{height:'20px', width:'20px', resizeMode:'contain', left: '5px'}}
         />
         <TextInput placeholder="   Enter your name" style={{height: '40px', width: '300px'}}>
-            
         </TextInput>
       </View>
       <View style={{top:'200px'}}>
         <View style={{flex: 1, alignItems: 'center'}}>
-            <TouchableOpacity style={{height: '40px', width: '180px', backgroundColor: 'rgba(0, 189, 214, 1)', borderRadius: '10px', justifyContent: 'center'}}>
+            <TouchableOpacity
+                onPress={()=>{navigation.navigate('man2')}} 
+                style={{height: '40px', width: '180px', backgroundColor: 'rgba(0, 189, 214, 1)', borderRadius: '10px', justifyContent: 'center'}}>
                 <Text style={{textAlign: 'center', fontSize: '18px', color:'white'}}>Get started {"->"}</Text>
             </TouchableOpacity>
         </View>
